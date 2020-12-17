@@ -6,6 +6,7 @@ namespace school_test3
     {
         public static string Reverse( string s )
         {
+            //google rules
             char[] charArray = s.ToCharArray();
             Array.Reverse( charArray );
             return new string( charArray );
